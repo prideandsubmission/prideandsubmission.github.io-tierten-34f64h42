@@ -19,7 +19,7 @@ function ask(){
 	}
 	else{
 		pass.value = "";
-		document.querySelector('section h6').innerText= "Sorry. Please try again."
+		document.querySelector('section h6').innerText= "Hint: He always smile. He told the prince where The First Stone located."
 	}
 }
 
