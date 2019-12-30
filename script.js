@@ -13,13 +13,13 @@ document.querySelector('.button').addEventListener('click', ask)
 function ask(){
 	
 
-	if (pass.value.toLowerCase() === "nine"){
+	if (pass.value.toLowerCase() === "ray"){
 		document.querySelector('section').style.display="none"
 		document.querySelector('main').style.display="block"
 	}
 	else{
 		pass.value = "";
-		document.querySelector('section h6').innerText= "Hint: He always smile. He told the prince where The First Stone located."
+		document.querySelector('section h6').innerText= "Hint: It's end with letter y."
 	}
 }
 

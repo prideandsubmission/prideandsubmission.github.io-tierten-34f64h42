@@ -96,4 +96,8 @@ img{
  	 box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
  	 border-radius: 20px;
 }
+div h6{
+	margin: 3vh auto 7vh auto;
+	font-size: 30px;
+}
 
